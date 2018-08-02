@@ -11,12 +11,16 @@ import discord.utils
 from discord.utils import get
 import traceback
 
+# Loading
+
+print('Loading...')
+
 # System Information
 
 client = commands.Bot(command_prefix = "a!")
 client.remove_command("help")
-client.Version = '0.9 - Beta'
-client.Author = 'Callum.#3955'
+client.Version = '0.1'
+client.Author = 'Callum.#3955 and Travis#9729'
 client.Token = 'bot token'
 client.Oauth2 = 'https://discordapp.com/oauth2/authorize?client_id=472920271326543872&scope=bot&permissions=2146958591'
 client.InsufficientPermissions = 'You have insufficient permissions to perform this command.'
